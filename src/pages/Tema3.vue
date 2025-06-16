@@ -90,7 +90,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2 Relaciones entre clases
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.col-7.mb-lg-0.mb-3
+      .col-lg-8.mb-lg-0.mb-3
         .p-5(style="background-color: #DED5DB ")
           p.mb-0 Las relaciones entre clases son fundamentales en el diseño orientado a objetos. En nuestro ejemplo de la biblioteca digital, podemos ver cómo un usuario puede tener múltiples préstamos activos, y cada recurso digital puede estar prestado a varios usuarios a lo largo del tiempo. Estas relaciones se representan mediante líneas y símbolos específicos en UML, donde la cardinalidad (1, , 1., etc.) indica cuántas instancias de cada clase pueden participar en la relación.
       .col-lg-4: img(src='@/assets/curso/temas/26.png', alt='')

@@ -75,7 +75,7 @@
     p.mb-4 La composición y la agregación representan diferentes tipos de relaciones entre objetos. Para entender mejor estos conceptos, analicemos algunos ejemplos del mundo real:
     .mn.bg-slyder.p-5.mb-5
       .tarjeta.p-5.bg-white
-        SlyderA(tipo='b')
+        CarouselRED(tipo='b')
           .row
             .col-lg-6.mb-4.mb-lg-0
               h4 Composición (relación fuerte "es parte de")
@@ -240,9 +240,9 @@
     .row.justify-content-center.mb-5
       .col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/22.png', alt='')
       .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Escenario 1: Sistema de gestión hospitalaria")
-            p.mb-4 Imagine un sistema de gestión de restaurante. En lugar de tener una clase gigante "Restaurante" que maneje todo, podríamos tener:
+            p.mb-4 Consideremos un sistema hospitalario que maneja diferentes tipos de personal médico. Aquí vemos la herencia y el polimorfismo en acción: 
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")

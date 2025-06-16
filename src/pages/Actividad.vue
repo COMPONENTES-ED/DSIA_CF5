@@ -10,8 +10,8 @@
               img(src="@/assets/bullets/Seleccion_Multiple.svg", alt="Texto que describa la imagen")
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
-            h2 Prueba de conocimientos sobre programación orientada a objetos: conceptos y modelado.
-          p.mb-4 Validar el conocimiento adquirido sobre programación orientada a objetos: conceptos y modelado. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
+            h2 Prueba de conocimientos sobre Programación orientada a objetos: conceptos y modelado
+          p.mb-4 Validar el conocimiento adquirido sobre Programación orientada a objetos: conceptos y modelado. Esto se trabaja a partir de un conjunto de preguntas con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
 
 
           .tarjeta.actividad.p-3
