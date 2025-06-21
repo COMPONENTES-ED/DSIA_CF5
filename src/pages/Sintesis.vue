@@ -18,7 +18,7 @@
     .row.justify-content-center
       .col-lg-8.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 3 se denomina «Síntesis temática del componente», es un mapa mental con el tema central “Programación orientada a objetos: conceptos y modelado, del cual se desprenden cuatro ramas principales —Fundamentos POO, principios diseño, modelado UML, patrones y arquitectura— cada una detallada con sus subtemas específicos.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis es un mapa mental con el tema central - Programación orientada a objetos: conceptos y modelado, del cual se desprenden cuatro ramas principales: Fundamentos POO, principios diseño, modelado UML, patrones y arquitectura; cada una detallada con sus subtemas específicos.")
     .row.justify-content-center.mb-5
       .col-3
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")

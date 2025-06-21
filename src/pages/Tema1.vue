@@ -10,7 +10,7 @@
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/4.png', alt='')
       .col-lg-8
         .p-5(style="background-color: #DED5DB ")
-          p.mb-0 La programación orientada a objetos (POO) representa un cambio paradigmático en la forma de diseñar y desarrollar software, ofreciendo una manera natural de representar y manipular conceptos del mundo real en código. Este capítulo explora los fundamentos esenciales de este paradigma, estableciendo las bases para el desarrollo de software robusto y mantenible.
+          p.mb-0 La programación orientada a objetos (POO) representa un cambio paradigmático en la forma de diseñar y desarrollar #[em software], ofreciendo una manera natural de representar y manipular conceptos del mundo real en código. Este capítulo explora los fundamentos esenciales de este paradigma, estableciendo las bases para el desarrollo de #[em software] robusto y mantenible.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Introducción al paradigma orientado a objetos
@@ -183,7 +183,7 @@
         .row.justify-content-center.mb-5
           .col-lg-6.mb-lg-0.mb-3
             .p-4(style="background-color: #E6F0FC ").h-100
-              p.mb-0 La programación orientada a objetos establece una base sólida para el desarrollo de software moderno, permitiendo crear sistemas más organizados, mantenibles y escalables. En los siguientes capítulos, exploraremos principios más avanzados y técnicas de diseño que nos permitirán aprovechar todo el potencial de este paradigma.
+              p.mb-0 La programación orientada a objetos establece una base sólida para el desarrollo de #[em software] moderno, permitiendo crear sistemas más organizados, mantenibles y escalables. En los siguientes capítulos, exploraremos principios más avanzados y técnicas de diseño que nos permitirán aprovechar todo el potencial de este paradigma.
           .col-lg-6.mb-lg-0.mb-3
             .p-4(style="background-color: #E6F0FC ").h-100
               p.mb-0 La comprensión profunda de estos conceptos fundamentales es esencial para cualquier desarrollador que trabaje con POO, ya que constituyen la base sobre la cual se construyen aplicaciones más complejas y robustas. El dominio de estos conceptos permite tomar mejores decisiones de diseño y crear código más limpio y mantenible.

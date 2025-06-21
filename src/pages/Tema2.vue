@@ -10,7 +10,7 @@
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/10.png', alt='')
       .col-lg-8
         .p-5(style="background-color: #E6F0FC ")
-          p.mb-0 El diseño orientado a objetos representa una forma de pensar sobre el software que refleja nuestra comprensión natural del mundo. En este capítulo, exploraremos los principios fundamentales que nos permiten crear sistemas que no solo funcionan, sino que son flexibles, mantenibles y escalables a lo largo del tiempo.
+          p.mb-0 El diseño orientado a objetos representa una forma de pensar sobre el #[em software] que refleja nuestra comprensión natural del mundo. En este capítulo, exploraremos los principios fundamentales que nos permiten crear sistemas que no solo funcionan, sino que son flexibles, mantenibles y escalables a lo largo del tiempo.
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Herencia y polimorfismo
@@ -241,66 +241,66 @@
       .col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/22.png', alt='')
       .col-lg-8
         AccordionRED.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Escenario 1: Sistema de gestión hospitalaria")
+          div(titulo="Escenario 1: sistema de gestión hospitalaria")
             p.mb-4 Consideremos un sistema hospitalario que maneja diferentes tipos de personal médico. Aquí vemos la herencia y el polimorfismo en acción: 
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Personal Médico (clase base)
+                p.mb-0 Personal médico (clase base).
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Médicos especialistas
+                p.mb-0 Médicos especialistas.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Enfermeros
+                p.mb-0 Enfermeros.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Técnicos de laboratorio
+                p.mb-0 Técnicos de laboratorio.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Farmacéuticos
+                p.mb-0 Farmacéuticos.
             p.mb-4 Cada tipo de personal comparte características básicas (nombre, ID, horarios) pero tiene responsabilidades específicas. Por ejemplo, todos pueden "atender pacientes", pero la implementación específica varía según el rol:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un médico realiza diagnósticos y prescribe tratamientos
+                p.mb-0 Un médico realiza diagnósticos y prescribe tratamientos.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un enfermero administra medicamentos y monitorea signos vitales
+                p.mb-0 Un enfermero administra medicamentos y monitorea signos vitales.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un técnico de laboratorio realiza pruebas y análisis
+                p.mb-0 Un técnico de laboratorio realiza pruebas y análisis.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un farmacéutico dispensa medicamentos y verifica interacciones
-          div(titulo="Escenario 2: plataforma de <em>Streaming</em>")
-            p.mb-4 Una plataforma de streaming multimedia demuestra perfectamente la composición y agregación:
+                p.mb-0 Un farmacéutico dispensa medicamentos y verifica interacciones.
+          div(titulo="Escenario 2: plataforma de <em>streaming</em>")
+            p.mb-4 Una plataforma de #[em streaming] multimedia demuestra perfectamente la composición y agregación:
             .ms-4: p.fw-bold.mb-3 Composición:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un perfil de usuario y sus preferencias
+                p.mb-0 Un perfil de usuario y sus preferencias.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Una lista de reproducción y sus elementos
+                p.mb-0 Una lista de reproducción y sus elementos.
               li.d-flex 
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un sistema de recomendaciones y sus algoritmos
+                p.mb-0 Un sistema de recomendaciones y sus algoritmos.
             .ms-4: p.fw-bold.mb-3 Agregación:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Una biblioteca y su contenido multimedia
+                p.mb-0 Una biblioteca y su contenido multimedia.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un usuario y sus dispositivos registrados
+                p.mb-0 Un usuario y sus dispositivos registrados.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Un grupo familiar y sus miembros
+                p.mb-0 Un grupo familiar y sus miembros.
 
 
           div(titulo="Aplicando SOLID en situaciones reales")
-            p.mb-4 Ejemplo: Sistema de Notificaciones
+            p.mb-4 Ejemplo: sistema de notificaciones
               br
               br
               | Un sistema de notificaciones bien diseñado podría manejar múltiples canales de comunicación:
@@ -310,10 +310,10 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Los usuarios reciben notificaciones solo por email
+                p.mb-0 Los usuarios reciben notificaciones solo por email.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Evolución del sistema:
+                p.mb-0 Evolución del sistema.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
                 p.mb-0 Se añade notificación por SMS.
@@ -334,13 +334,13 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Problema: Jerarquías de clases demasiado profundas que son difíciles de mantener.
+                p.mb-0 Problema: jerarquías de clases demasiado profundas que son difíciles de mantener.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Solución: Favorecer la composición sobre la herencia cuando sea posible.
+                p.mb-0 Solución: favorecer la composición sobre la herencia cuando sea posible.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Ejemplo: En lugar de crear una jerarquía profunda de tipos de vehículos, usar composición con características como tipo de motor, sistema de transmisión, etc.
+                p.mb-0 Ejemplo: en lugar de crear una jerarquía profunda de tipos de vehículos, usar composición con características como tipo de motor, sistema de transmisión, etc.
             h5 Acoplamiento excesivo:
             ul.lista-ul--color
               li.d-flex
@@ -356,17 +356,17 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Problema: Clases que intentan hacer demasiado. 
+                p.mb-0 Problema: clases que intentan hacer demasiado. 
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Solución: Aplicar el principio de responsabilidad única. 
+                p.mb-0 Solución: aplicar el principio de responsabilidad única. 
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Ejemplo: Separar una clase "Pedido" monolítica en componentes más específicos como "GestorPedido", "CalculadorPrecio", "ValidadorInventario".
+                p.mb-0 Ejemplo: separar una clase "Pedido" monolítica en componentes más específicos como "GestorPedido", "CalculadorPrecio", "ValidadorInventario".
             h5 Patrones de implementación efectivos
             p.mb-3 Patrón #[em Observer] para notificaciones:
               br
-              |Sistema de Biblioteca:
+              |Sistema de biblioteca:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
@@ -378,7 +378,7 @@
                   br
                   |- Registra la transacción.
             p.mb-3 Patrón #[em Strategy] para reglas de negocio variables:
-            p.mb-0 Sistema de Descuentos:
+            p.mb-0 Sistema de descuentos:
               br
               | - Descuentos por temporada.
               br
@@ -398,7 +398,7 @@
                 p.mb-0 Los métodos dentro de una clase deben estar relacionados.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Ejemplo: Una clase "Factura" que maneja solo aspectos relacionados con la facturación.
+                p.mb-0 Ejemplo: una clase "Factura" que maneja solo aspectos relacionados con la facturación.
             h5 Mantener el acoplamiento bajo:
             ul.lista-ul--color
               li.d-flex
@@ -409,7 +409,7 @@
                 p.mb-0 Usar interfaces para comunicación entre componentes.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Ejemplo: Un sistema de reportes que puede funcionar con diferentes fuentes de datos.
+                p.mb-0 Ejemplo: un sistema de reportes que puede funcionar con diferentes fuentes de datos.
             h5 Diseñar para el cambio:
             ul.lista-ul--color
               li.d-flex
@@ -420,8 +420,8 @@
                 p.mb-0 Encapsular esas partes detrás de interfaces estables.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #1169E3")
-                p.mb-0 Ejemplo: Un sistema de autenticación que puede adaptarse a diferentes proveedores de identidad.
-            p.mb-0 La aplicación efectiva de estos principios y patrones requiere práctica y experiencia. Es importante recordar que el objetivo final es crear software que no solo funcione correctamente, sino que también sea fácil de mantener, modificar y extender a lo largo del tiempo. En el próximo capítulo, exploraremos cómo estos conceptos se traducen en diagramas UML y cómo podemos utilizar herramientas CASE para visualizar y documentar nuestros diseños orientados a objetos.
+                p.mb-0 Ejemplo: un sistema de autenticación que puede adaptarse a diferentes proveedores de identidad.
+            p.mb-0 La aplicación efectiva de estos principios y patrones requiere práctica y experiencia. Es importante recordar que el objetivo final es crear #[em software] que no solo funcione correctamente, sino que también sea fácil de mantener, modificar y extender a lo largo del tiempo. En el próximo capítulo, exploraremos cómo estos conceptos se traducen en diagramas UML y cómo podemos utilizar herramientas CASE para visualizar y documentar nuestros diseños orientados a objetos.
 </template>
 
 <script>
