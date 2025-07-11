@@ -23,12 +23,12 @@ export default {
     referencias: [
       {
         referencia:
-          'Blanco, P., & Sánchez, J. (2023). Fundamentos de la programación orientada a objetos con Java. Ra-Ma Editorial.',
-        link: '',
+          'Bergström, G., Hujainah, F., Ho-Quang, T., Jolak, R., Rukmono, S. A., Nurwidyantoro, A., & Chaudron, M. R. V. (2022). Evaluating the layout quality of UML class diagrams using machine learning. Journal of Systems and Software, 192.',
+        link: 'https://doi.org/10.1016/j.jss.2022.111413',
       },
       {
         referencia:
-          'Ceballos, F. J. (2022). Programación orientada a objetos con C++. Ra-Ma Editorial.',
+          'Blanco, P., & Sánchez, J. (2023). Fundamentos de la programación orientada a objetos con Java. Ra-Ma Editorial.',
         link: '',
       },
       {
@@ -38,12 +38,13 @@ export default {
       },
       {
         referencia:
-          'Freeman, E., Robson, E., Sierra, K., & Bates, B. (2022). Head First Design Patterns (3rd ed.). O&#39;Reilly Media.',
-        link: '',
+          'Freeman, E., Robson, E., Sierra, K., & Bates, B. (2021). Head First Design Patterns (2nd ed.). O"Reilly Media.',
+        link:
+          'https://archive.org/details/head-first-design-patterns-eric-freeman-elisabeth-robson-bert-bates-etc.-z-lib.org',
       },
       {
         referencia:
-          'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (2023). Design Patterns: Elements of Reusable Object-Oriented <em>Software</em> (Anniversary ed.). Addison-Wesley Professional.',
+          'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (2023). Design Patterns: Elements of Reusable Object-Oriented Software (Anniversary ed.). Addison-Wesley Professional.',
         link: '',
       },
       {
@@ -63,17 +64,13 @@ export default {
       },
       {
         referencia:
-          'Martin, R. C. (2023). Clean Architecture: A Craftsman&#39;s Guide to Software Structure and Design. Prentice Hall.',
-        link: '',
+          'Martin, R. C. (2017). Clean Architecture: A Craftsman’s Guide to Software Structure and Design. Prentice Hall.',
+        link:
+          'https://agorism.dev/book/software-architecture/%28Robert%20C.%20Martin%20Series%29%20Robert%20C.%20Martin%20-%20Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Prentice%20Hall%20%282017%29.pdf',
       },
       {
         referencia:
-          'Martin, R. C. (2021). Agile <em<Software Development</em>, Principles, Patterns, and Practices (2nd ed.). Pearson Education.',
-        link: '',
-      },
-      {
-        referencia:
-          'Méndez, A. (2023). Principios SOLID explicados: Una guía práctica con ejemplos en Python. Marcombo.',
+          'Martin, R. C. (2021). Agile Software Development, Principles, Patterns, and Practices (2nd ed.). Pearson Education.',
         link: '',
       },
       {
@@ -88,13 +85,24 @@ export default {
       },
       {
         referencia:
-          'Torres, R., & Velázquez, P. (2023). Modelado UML con ejemplos prácticos. Alfaomega.',
-        link: '',
+          'Sweigart, A. (2019). Automate the Boring Stuff with Python: Practical Programming for Total Beginners (2nd ed.). No Starch Press.',
+        link: 'https://archive.org/details/Automate-Boring-Stuff-Python-2nd',
       },
       {
         referencia:
           'Valdés-Miranda, C., & Rodríguez, P. (2024). Diseño y programación orientada a objetos: Una perspectiva práctica. Anaya Multimedia.',
         link: '',
+      },
+      {
+        referencia:
+          'Vo, M. H. L., & Hoang, Q. (2020). Transformation of uml class diagram into owl ontology. Journal of Information and Telecommunication, 4(1), 1–16.',
+        link: 'https://doi.org/10.1080/24751839.2019.1686681',
+      },
+      {
+        referencia:
+          'Yusuf, O. (2023). DEVELOPMENT OF A LEARNING MANAGEMENT SYSTEM FOR PHYTON PROGRAMMING LANGUAGE. Caleb International Journal of Development Studies, 06(02), 164–179.',
+        link:
+          'https://www.cijds.calebuniversity.edu.ng/public_html/files/published_paper/volume-6/issue-2/L2EQL77L.pdf',
       },
     ],
   }),
