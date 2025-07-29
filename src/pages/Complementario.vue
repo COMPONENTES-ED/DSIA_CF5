@@ -61,6 +61,13 @@ export default {
         {
           tema: '1. Fundamentos de la Programación Orientada a Objetos',
           referencia:
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023e, septiembre 12). <em>Diseño del modelo conceptual bajo el paradigma orientado a objetos.</em>',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=W6Wt7VK0bFI',
+        },
+        {
+          tema: '1. Fundamentos de la Programación Orientada a Objetos',
+          referencia:
             'Ecosistema de Recursos Educativos Digitales SENA. (2023, mayo 10). <em>Programación orientada a objetos</em>.',
           tipo: 'Video',
           link: 'https://www.youtube.com/watch?v=TE0TKx9dEtI',
